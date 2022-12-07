@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300;400&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Solway:wght@300;400&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/152788266e.js" crossorigin="anonymous"></script>
+    <script src="./project.js"></script>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <ul>
+                <li><i class="fa-solid fa-house"></i>
+                    <a href="#home">Home</a></li>
+                <li><i class="fa-solid fa-user"></i><a href="#info">Infographic</a></li>
+                <li><i class="fa-solid fa-book"></i><a href="#edu">Education</a></li>
+                <li><i class="fa-solid fa-laptop"></i><a href="#Sk">Skills</a></li>
+                <li><i class="fa-solid fa-phone"></i><a href="#phone">Contact me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home">
+        <div id="img">
+            <img src="./pic.jpeg" alt="profile pic" id="pic" width="30%">
+        </div>
+
+        <center><h1>Meenakshi Sharma</h1></center>
+        <center><h3>Web Developer, Software Engineer</h3></center>
+
+        <div id="button">
+            <a href="./Resume.docx" download="Resume1">
+            <button id="resume"><i class="fa-solid fa-download"></i>Resume</button></a>
+            <button id="contact"><a href="#phone">Contact</a></button>
+           
+        </div>
+    </section>
+    <!-- Infographic Section -->
+    <main id="info">
+        <div id="left">
+            <h2>About Me and Academic Honesty</h2>
+            <p>I declare that this assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assessment has been distributed to other students.</p>
+            <p><b>Date: 03-12-2021</b></p>
+        </div>
+        <div id="right">
+            <h2><u>Basic Information</u></h2>
+            <p><span class="i">AGE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>19</p>
+            <br>
+            <p><span class="i">EMAIL: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>meenakshi27082003@gmail.com</p>
+            <br>
+            <p><span class="i">LANGUAGE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>English, Hindi</p>
+            <br>
+            <p><span class="i">CLASS SECTION: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>ZAA</p>
+            <br>
+            <p><span class="i">STUDENT ID: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>166234211</p>
+            <br>
+            <p><span class="i">INSTRUCTOR: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Dr. Muath Alzghool</p>
+        </div>
+    </main>
+
+    <div id="edu">
+        <h1><u>EDUCATION</u></h1>
+        <div id="content">
+            <div id="one">
+                <h2>CPP Diploma</h2>
+                <p><b>SENECA COLLEGE (2022-2024)</b></p>
+                <p>Under the supervision of Seneca Professors</p>
+                <br>
+                <p>Currently pursuing Diploma of Computer Programming from Seneca College. Its a two year diploma and it is really interesting diploma for the students who want to become programmers.</p>
+            </div>
+            <div id="two">
+                <h2>Senior Secondary Education</h2>
+                <p><b>CBSE India</b></p>
+                <p>LSMS School, Khanna</p>
+                <br>
+                <p>I completed my senior secondary education from India. I have done my senior secondary education in Non-Medical stream. I studied Physics, Chemistry, Maths subjects in this stream.</p>
+            </div>
+            <div id="three">
+                <h2>Completed C programming and Web designing Course</h2>
+                <p><b>Anu InfoTech</b></p>
+                <p>Under the supervision of Experts</p>
+                <br>
+                <p>I completed the C programming and teh Web designing course back in India. These courses are really helpful in building the basics of programming.</p>
+            </div>
+        </div>
+    </div>
+    
+    <article id="Sk">
+        <h1><u>SKILLS</u></h1>
+        <div id="border">
+        <div class="skill">
+            <h3>Languages</h3>
+           <p>Javascript, 
+            MySQL, 
+            JQuery, 
+            CSS, 
+            C++, 
+            PHP, 
+            Java, 
+            Python, 
+            Ruby, 
+            HTML 5</p>
+        </div>
+        <br>
+        <div class="skill">
+            <h3>Hard Skills</h3>
+            <p>Programming, 
+                Wireframes, 
+                Git, 
+                DNS Management, 
+                Debugging</p>
+        </div>
+       <br>
+        <div class="skill">
+            <h3>Soft Skills</h3>
+            <p>Collaboration, Communication, Critical Thinking, Problem Solving, Adaptability</p>
+        </div>
+    </div>
+    </article>
+
+    <footer id="phone">
+        <h1><i class="fa-sharp fa-solid fa-pen-to-square">&nbsp;</i><u>CONTACT FORM</i></u></h1>
+        <p>PLEASE FILL THE GIVEN FORM</p>
+        
+        <form action="https://httpbin.org/post " method="post" onsubmit="return formValidation();">
+            <label for="name">NAME: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="Name" id="name" placeholder="ENTER YOUR NAME" required>
+            <br>
+            <br>
+            <label for="email">EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="Email" id="email" placeholder="ENTER EMAIL ADDRESS">
+            <br>
+            <br>
+            <label for="DOB">DATE OF BIRTH:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="date" name="DOB" id="DOB">
+            <br><br>
+            <label for="stadd">STREET ADDRESS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" name="Street Address" id="stadd" placeholder="Enter Street Address">
+            <br><br>
+            <label for="province">PROVINCE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input list="provinces" id="province">
+            <datalist name="province" id="provinces">
+                <option value="ON">
+                <option value="QC">
+                <option value="BC">
+                <option value="AB">
+                <option value="MB">
+                <option value="SK">
+                <option value="NS">
+                <option value="NB">
+                <option value="NL">
+                <option value="PE">
+                <option value="NT">
+                <option value="YT">
+                <option value="NU">
+            </datalist>
+            <br><br>
+            <label for="postalCode">POSTALCODE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" name="postalCode" id="postalCode" placeholder="ENTER POSTALCODE">
+            <br><br>
+            <label for="about">WHAT THIS IS ABOUT? </label>
+            <input type="radio" id="job_offer" name="About_Topic" value="JOB OFFER">
+            <label for="job_offer">JOB OFFER</label><br>
+            <input type="radio" id="school" name="About_Topic" value="SCHOOL">
+            <label for="school">SCHOOL</label><br>
+            <input type="radio" id="other" name="" value="Other">
+            <label for="other">Other</label>
+            <input type="text" name="About_Topic" id="other">
+            <br><br>
+            <label for="message">MESSAGE: </label>
+            <br>
+            <textarea name="Message" id="message" cols="60" rows="6" placeholder="YOUR MESSAGE"></textarea>
+            <br>
+            <input type="submit" value="SUBMIT">
+        </form>
+        <p id="error"></p>
+
+
+    </footer>
+</body>
+</html>

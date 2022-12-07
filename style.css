@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(50, 49, 49); */
+    background-color: #151f34;
+}
+#nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around; 
+    height: 90px;
+    align-items: center;
+    
+}
+#nav ul li a{
+  
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    transition: .3s;
+    padding: 10px;
+}
+#nav ul li i{
+    color: white;
+    font-size: 22px;
+    padding:10px ;
+}
+#nav ul li a:hover{
+    /* background-color: rgb(94, 93, 93); */
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+}
+
+/* image section */
+#home{
+    background-color: rgb(231, 255, 194);
+    background-color: white;
+}
+#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#pic{
+    margin-top: 20px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+#home h1{
+    font-family: 'Solway', serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home h3{
+    font-family: 'Solway', serif;
+    font-size: 26px;
+    color: rgb(56, 56, 56);
+}
+/* buttons styling */
+#button{
+    display: flex;
+    justify-content: center;
+}
+#button button{
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    border: 2px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    background-color: rgb(231, 255, 194);
+    border-radius: 10px;
+    transition: .5s;
+}
+#button i{
+    padding-right: 6px;
+}
+#button button:hover{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+    background-color: rgb(198, 255, 113);
+    background-color: #151f34;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid rgb(198, 255, 113);
+    /* box-shadow: 0px 0px 20px rgb(198, 255, 113) ; */
+   
+}
+/* infographic styling */
+#info{
+    background-color: #151f34;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 30px rgb(175, 175, 175);
+    /* box-shadow: -10px -10px -10px grey; */
+    margin: 7px;
+    padding: 16px;
+    color: white;
+}
+
+#left{
+    width: 50%;
+}
+#left h2{
+    padding: 20px;
+    font-size: 30px;
+}
+#left p{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-right: 30px;
+}
+#right{
+    width: 50%;
+}
+#right h2{
+    padding: 20px;
+    font-size: 28px;
+}
+#right p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.i{
+    font-weight: bold;
+}
+
+/* education styling */
+
+#edu{
+    background-color: rgb(231, 255, 194);
+    background-color: white;
+    
+}
+#content{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+#edu h1{
+    font-size: 60px;
+    display: inline;
+    
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    /* border-bottom: 2px solid black; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(47, 47, 47);
+}
+
+#one,#two,#three{
+
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    /* border: 2px solid grey; */
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75);
+    margin-bottom: 30px;
+    transition: .5s;
+    background-color: rgb(231, 255, 194);
+    
+}
+#one:hover,#two:hover,#three:hover{ 
+    color: white;
+    cursor: pointer;
+    background-color: #2f363e;
+    background-color: #151f34;
+}
+
+/* Article styling */
+article{
+    /* background-color: rgb(231, 255, 194); */
+    padding-bottom: 20px;
+}
+article h1{
+    font-size: 60px;
+    display: inline;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(47, 47, 47);
+}
+
+.skill{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    background-color:rgb(244, 244, 244) ;
+    background-color: #151f34;
+    /* box-shadow:  2px 3px 2px rgb(58, 92, 239); */
+    color:white;
+    border-radius: 6px;
+    /* box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75); */
+    border-radius: 20px;
+    transition: .5s;
+}
+.skill:hover{
+    background-color: rgb(231, 255, 194);
+    cursor: pointer;
+    color: #151f34;
+    box-shadow: inset 0px 0px 20px #151f34;
+}
+.skill h3{
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 20px;
+   
+    
+}
+.skill p{
+    font-size: 24px;
+}
+/* footer styling */
+footer{
+    padding-bottom: 20px;
+    margin-top: 30px;
+
+}
+footer h1{
+    font-size: 60px;
+    display: inline;
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(47, 47, 47);
+    padding-top: 30px;
+}
+
+footer p{
+    color: #587d0d;
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+footer form{
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 30px;
+    background-color: #151f34;
+    color: white;
+    padding: 20px;
+    /* box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75); */
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 20px;
+
+}
+footer form label{
+    font-weight: bold;
+    font-size: 21px;
+}
+footer form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    border-radius: 20px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75);
+    border: none;
+    background-color: rgb(231, 255, 194);
+}
+footer form input:hover{
+    cursor: pointer;
+}
+input[type="radio"]{
+    margin-left: 20px;
+    font-weight: bold;
+    accent-color: rgb(239, 116, 255);
+}
+input[type="submit"]{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #7fa82b;
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: bold;
+    /* box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75); */
+    transition: .5s;
+    background-color: rgb(231, 255, 194);
+    color: #151f34;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-right: 30px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    /* background-color: #9ec452; */
+    box-shadow: 0px 0px 10px #9ec452;
+   
+    /* border: 2px solid black; */
+    /* font-size: 26px; */
+    /* box-shadow: 0px 0px 10px #dcff95 ; */
+}
+
+#show{
+    display: none;
+}
+#error{
+    color: #9d1720;
+}
+
+textarea{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 13px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
+    10px 10px 70px rgba(0, 0, 0, .25),
+    inset 5px 5px 20px rgba(255, 255, 255, .2),
+    inset -5px -5px 15px rgba(0, 0, 0, .75);
+}
+::placeholder{
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 600;
+}
+@media (max-width:1024px) and (min-width:990px) {
+    #left h2,#right h2{
+        font-size: 26px;
+    }
+    #left p,#right p{
+        font-size: 17px;
+    }
+    #info{
+        flex-direction:column ;
+
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+}
+@media (max-width:990px) and (min-width:375px) {
+    header{
+        height: 250px;
+    }
+    #nav ul{
+        flex-direction: column;
+        height: 250px;
+    }
+    #nav ul li a{
+        font-size: 20px;
+    }
+    #nav ul li i{
+        font-size: 17px;
+    }
+    #info{
+        flex-direction:column ;
+
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+    #one, #two, #three{
+        width: 30%;
+    }
+    .skill h3{
+        font-size: 24px;
+    }
+    .skill p{
+        font-size: 20px;
+    }
+    article h1, footer h1,#edu h1{
+        font-size: 33px;
+    }
+    #phone p{
+        font-size: 22px;
+    }
+    #left h2,#right h2{
+        font-size: 26px;
+    }
+    #left p,#right p{
+        font-size: 17px;
+    }
+    footer form{
+        font-size: 20px;
+    }
+}
+@media (max-width:740px) and (min-width:375px)
+{
+    footer form{
+        font-size: 17px;
+    }
+}
+@media (max-width:718px) and (min-width:375px) {
+    #img img{
+        width: 400px;
+    }
+    form textarea{
+        width: 70%;
+    }
+}
+@media (max-width:490px) and (min-width:375px) {
+    #content{
+        flex-direction: column;
+    }
+    #one,#two,#three{
+        width: 100%;
+    }
+    #left h2,#right h2{
+        font-size: 24px;
+    }
+    #left p,#right p{
+        font-size: 13px;
+    }
+}
+@media (max-width:420px) and (min-width:375px){
+    #img img{
+        width: 260px;
+    }
+    #home h1{
+        font-size: 26px;
+    }
+    #home h3{
+        font-size: 22px;
+    }
+    #home button{
+        font-size: 18px;
+    }
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+#contact a:hover{
+    color: white;
+}
